@@ -1,0 +1,12 @@
+spring.application.name=vibely
+
+# Okta OAuth2 settings
+okta.oauth2.client-id=m24fWH4KkXmkP7qBFuYkM1cOW1w10n86
+okta.oauth2.client-secret=ENqdEqFutb0rm1SpsYFq7GfHlmB3HTVkZn0ElK--qtd9av7-G3roZ6HbN1uXvWuQ
+okta.oauth2.issuer=https://dev-yh2tiaf16etwsf1n.us.auth0.com/
+
+# Spring Security
+spring.security.oauth2.client.registration.okta.client-id=${okta.oauth2.client-id}
+spring.security.oauth2.client.registration.okta.client-secret=${okta.oauth2.client-secret}
+spring.security.oauth2.client.provider.okta.issuer-uri=${okta.oauth2.issuer}
+spring.profiles.active=@spring.profiles.active@
