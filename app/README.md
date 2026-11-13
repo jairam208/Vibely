@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 🚀 Vibely - Full Stack CRUD Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application built with **Spring Boot** and **React**, demonstrating standard Create, Read, Update, and Delete (CRUD) operations. Inspired by modern enterprise application patterns, this project integrates a robust Java backend with a dynamic React frontend interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
 
-### `npm start`
+* **Frontend:** React, React Router, HTML5, CSS3, JavaScript
+* **Backend:** Java, Spring Boot, Spring Data JPA, H2 / Database
+* **Build & Dependency Management:** Maven, Node.js / npm
+* **Version Control:** Git & GitHub
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure
 
-### `npm test`
+vibely/
+├── app/                  # React frontend application
+├── src/                  # Spring Boot backend source code
+├── pom.xml               # Maven configuration file for Java dependencies
+└── README.md             # Project documentation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✨ Features
+Full CRUD Operations: Create, view, update, and delete records seamlessly through an intuitive user interface.
 
-### `npm run build`
+RESTful API Architecture: Spring Boot backend exposes clean REST endpoints consumed by the React client.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Data Persistence: Uses Spring Data JPA for efficient database management and data operations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Responsive UI: Clean, component-based layout built using React.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+⚙️ Getting Started & Running Locally
+To run this project locally on your machine, follow these steps:
 
-### `npm run eject`
+Prerequisites
+Java JDK (17 or higher recommended)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Node.js and npm
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Maven
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the Repository
+Bash
+git clone https://github.com/jairam208/vibely.git
+cd vibely
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Run the Spring Boot Backend
+Navigate to the backend directory and run the Spring Boot application using Maven:
 
-## Learn More
+Bash
+mvn spring-boot:run
+(The backend server will start locally, typically on port 8080).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Run the React Frontend
+Open a separate terminal window, navigate to the app folder, install dependencies, and launch the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bash
+cd app
+npm install
+npm start
+(The React app will open locally, typically on port 3000).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💡 What I Learned
+Building this project deepened my understanding of connecting a decoupled frontend framework (React) with a robust backend service (Spring Boot) via REST APIs, handling asynchronous state updates, and structuring full-stack application workflows.
