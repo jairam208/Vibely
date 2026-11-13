@@ -1,4 +1,4 @@
-# 🚀 Vibely - Full Stack CRUD Application
+# 🚀 Vibely - Event Discovery Full Stack CRUD Application
 
 A full-stack web application built with **Spring Boot** and **React**, demonstrating standard Create, Read, Update, and Delete (CRUD) operations. Inspired by modern enterprise application patterns, this project integrates a robust Java backend with a dynamic React frontend interface.
 
