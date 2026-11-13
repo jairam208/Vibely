@@ -15,12 +15,12 @@ A full-stack web application built with **Spring Boot** and **React**, demonstra
 
 ## 📂 Project Structure
 
+```text
 vibely/
 ├── app/                  # React frontend application
 ├── src/                  # Spring Boot backend source code
 ├── pom.xml               # Maven configuration file for Java dependencies
 └── README.md             # Project documentation
-
 ✨ Features
 Full CRUD Operations: Create, view, update, and delete records seamlessly through an intuitive user interface.
 
@@ -44,8 +44,7 @@ Maven
 Bash
 git clone https://github.com/jairam208/vibely.git
 cd vibely
-
-3. Run the Spring Boot Backend
+2. Run the Spring Boot Backend
 Navigate to the backend directory and run the Spring Boot application using Maven:
 
 Bash
