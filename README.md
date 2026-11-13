@@ -1,0 +1,2 @@
+# Vibely
+Event Discovery Application
