@@ -44,16 +44,15 @@ Maven
 Bash
 git clone https://github.com/jairam208/vibely.git
 cd vibely
+
 2. Run the Spring Boot Backend
 Navigate to the backend directory and run the Spring Boot application using Maven:
-
 Bash
 mvn spring-boot:run
 (The backend server will start locally, typically on port 8080).
 
 3. Run the React Frontend
 Open a separate terminal window, navigate to the app folder, install dependencies, and launch the development server:
-
 Bash
 cd app
 npm install
